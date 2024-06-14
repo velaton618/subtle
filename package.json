@@ -1,0 +1,23 @@
+{
+  "name": "subtle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "links": "ts-node src/links.ts",
+    "subtlinks": "ts-node src/subtlinks.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.7.0",
+    "sqlite3": "^5.1.7"
+  }
+}
